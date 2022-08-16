@@ -1,0 +1,45 @@
+<div class="row mt-3">
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title">Donut in 2D</h3>
+          <fusioncharts
+            width = "400"
+            height = "350"
+            type = "doughnut2d"
+            dataFormat = "json"
+            [dataSource]="dataSource1"
+          >
+        </fusioncharts>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title">Simple column in Angular</h3>
+        <fusioncharts
+          height="350"
+          type="Column2d"
+          [dataSource]="dataSource2"
+        >
+        </fusioncharts>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title">Line with scrolling only</h3>
+        <fusioncharts
+          width = "400"
+          height = "350"
+          type = "scrollline2d"
+          dataFormat = "json"
+          [dataSource]="dataSource3"
+        >
+        </fusioncharts>
+      </div>
+    </div>
+  </div>
+</div>
